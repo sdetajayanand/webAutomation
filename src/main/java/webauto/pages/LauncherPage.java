@@ -10,6 +10,7 @@ public class LauncherPage {
     }
     public void navigateTo(String url) {
         webdriver.get(url);
+        //webdriver.navigate();
     }
 
 }
